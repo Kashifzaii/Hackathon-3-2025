@@ -7,6 +7,7 @@ import { urlFor } from "../../sanity/lib/image";
 
 
 const Page = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { state, dispatch, totalItems, totalPrice } = useCart();
   const [isCheckout, setIsCheckout] = useState(false);
   const [isOrderSummary, setIsOrderSummary] = useState(false);

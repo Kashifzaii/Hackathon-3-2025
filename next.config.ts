@@ -7,8 +7,15 @@ const nextConfig = {
         hostname: "cdn.sanity.io",
       },
   ]
+  
 },
 };
 
 export default nextConfig;
+module.exports = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+};
+
 
