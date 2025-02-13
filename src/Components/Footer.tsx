@@ -3,7 +3,7 @@ import {FaInstagram,  FaFacebookF, FaTwitter,FaLinkedinIn, FaSkype,FaPinterestP,
 
 const Footer = () => {
   return (
-    <div className="bg-gray-900 w-full flex flex-col">
+    <div className="bg-darkPrimary w-full flex flex-col">
       <div className="flex flex-col lg:flex-row justify-between items-start w-full max-w-[1440px] mx-auto px-6 py-6 space-y-6 lg:space-y-0">
 
         <div className="flex flex-col w-full lg:w-[150px]">
@@ -70,14 +70,14 @@ const Footer = () => {
 
      
         <div className="flex flex-col w-full lg:w-[250px]">
-          <h2 className="font-clash-display text-white text-[18px] font-semi-bold leading-[19.68px] mb-6">
+          <h2 className="font-clash-display text-white text-[18px] font-bold leading-[19.68px] mb-6">
             Join our mailing list
           </h2>
           <div className="flex flex-col sm:flex-row w-full">
             <input
               type="email"
               placeholder="Your@email.com"
-              className="h-[50px] sm:h-[60px] px-4 text-darkPrimary text-sm bg-gray-900 opacity-35 border border-white rounded-t-md sm:rounded-l-md sm:rounded-t-none w-full sm:w-[70%] mb-4 sm:mb-0"
+              className="h-[50px] sm:h-[60px] px-4 text-darkPrimary text-sm bg-purple-900 rounded-t-md sm:rounded-l-md sm:rounded-t-none border-none outline-none w-full sm:w-[70%] mb-4 sm:mb-0"
             />
             <button className="bg-white text-darkPrimary h-[50px] sm:h-[60px] px-4 font-satoshi rounded-b-md sm:rounded-r-md sm:rounded-b-none w-full sm:w-[30%]">
               Sign Up
@@ -107,8 +107,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-
-
